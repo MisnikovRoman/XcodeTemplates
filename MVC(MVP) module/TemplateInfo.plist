@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>MVC module</string>
+	<key>Description</key>
+	<string>Custom MVC module, copy of MVP pattern</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___</string>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Name</key>
+			<string>Название модуля</string>
+			<key>Description</key>
+			<string>Name of module that you need create</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>New</string>
+		</dict>
+	</array>
+	<key>Template Author</key>
+	<string>Misnikov Roman</string>
+</dict>
+</plist>
